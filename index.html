@@ -1,111 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-    <link rel="stylesheet" href="projek 1/assets/css/style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="projek 1/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  </head>
 
-<body>
+  <body>
     <div class="wrapper bg-white">
-        <div class="menu mb-5">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <a class="navbar-brand me-170" href="#">
-                            <img src="projek 1/assets/img/logo (1).png" alt="Logo" width="170px" />
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around gap-5 w-100">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Homepage</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Service</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Article</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
+      <div class="menu mb-5">
         <div class="container">
-            <div class="hero-section">
-                <div class="row">
-                    <div class="col-12 ps-5">
-                        <h2 class="hero-title">SuitableSpace <br>Smart For Growing Business</h2>
-                    </div>
-                    <div class="col-3 ps-5">
-                        <div class="search-box">
-                            <i class="bi bi-search"></i>
-                            <input type=" text" placeholder="Cari ruangan">
-                        </div>
-                        <div class="search-box mt-3">
-                            <i class="bi bi whatsapp"></i>
-                            <input type="text" placeholder="Hubungi kami">
-                        </div>
-
-
-
-
-                    </div>
-
-
-
-                </div>
+          <!-- INI HEADER AWAL -->
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand me-170" href="#">
+                <img
+                  src="projek 1/assets/img/logo (1).png"
+                  alt="Logo"
+                  width="170px" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                  class="navbar-nav d-flex justify-content-between gap-5 w-100">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Homepage</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Article</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="services-section">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h2 class="section-title">Rekomendasi Ruang Office dan Meeting</h2>
-                        <div class="card-space">
-                            <img src="projek 1/assets/img/2.png" alt="">
-
-                            <div class="card-overlay">
-                                <h5>Ruang Office 1 Orang</h5>
-                                <div class="d-flex justify-content-between align-items-end">
-                                    <div class="d-flex flex-column gap-2"> <button
-                                            class="btn btn-light btn-sm">Details</button>
-                                        <button class="btn btn-success btn-sm">Contact us <i
-                                                class="bi bi whatsapp"></i></button>
-                                    </div>
-                                    
-                                    <div class="price-tag">RP. 500.000/bulan</div>
-                                </div>
-
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
+          </nav>
+          <!-- INI HEADER AKHIR -->
         </div>
+      </div>
+
+      <div class="container">
+        <!-- INI HERO AWAL -->
+        <div class="hero-section">
+          <div class="row">
+            <div class="col-12 ps-5">
+              <h2 class="hero-title">
+                SuitableSpace <br />
+                Smart for growing bussiness
+              </h2>
+            </div>
+            <div class="col-3 ps-5">
+              <div class="search-box">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="Cari Ruangan" />
+              </div>
+              <div class="search-box mt-3">
+                <i class="bi bi-whatsapp"></i>
+                <input type="text" placeholder="Hubungi Kami" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- INI HERO AKHIR -->
+      </div>
+
+      <div class="container">
+        <!-- INI SERVICE AWAL -->
+        <div class="services-section">
+          <div class="row">
+            <!-- INI COL SATU AWAL -->
+            <div class="col-sm-6">
+              <h2 class="section-title">
+                Rekomendasi Ruang Office dan Meeting
+              </h2>
+              <div class="card-space">
+                <img src="projek 1/assets/img/2.png" alt="" />
+                <div class="card-overlay">
+                  <h5>Ruang Office 1 Orang</h5>
+
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div class="d-flex flex-column gap-2">
+                      <button class="btn btn-light btn-sm">Details</button>
+                      <button class="btn btn-success btn-sm">
+                        Contact Us <i class="bi bi-whatsapp"></i>
+                      </button>
+                    </div>
+                    <!-- kanan -->
+                    <div class="price-tag">Rp. 500.000/bln</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- INI COL SATU AKHIR -->
+
+            <!-- INI COL DUA AWAL -->
+            <div class="col-lg-6">
+              <div class="row">
+                <!-- INI COL DUA-SATU -->
+                <div class="col-md-6">
+                  <div class="card-space">
+                    <img src="projek 1/assets/img/20.png" alt="" />
+                    <div class="card-overlay">
+                      <h5>Ruang Office 8 Orang</h5>
+
+                      <div
+                        class="d-flex justify-content-between align-items-end">
+                        <div class="d-flex flex-column gap-2">
+                          <button class="btn btn-light btn-sm">Details</button>
+                          <button class="btn btn-success btn-sm">
+                            Contact Us <i class="bi bi-whatsapp"></i>
+                          </button>
+                        </div>
+                        <!-- kanan -->
+                        <div class="price-tag">Rp. 500.000/bln</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- INI COL DUA-DUA -->
+                <div class="col-md-6">
+                  <div class="card-space">
+                    <img src="projek 1/assets/img/4.png" alt="" />
+                    <div class="card-overlay">
+                      <h5>Ruang Office 10 Orang</h5>
+
+                      <div
+                        class="d-flex justify-content-between align-items-end">
+                        <div class="d-flex flex-column gap-2">
+                          <button class="btn btn-light btn-sm">Details</button>
+                          <button class="btn btn-success btn-sm">
+                            Contact Us <i class="bi bi-whatsapp"></i>
+                          </button>
+                        </div>
+                        <!-- kanan -->
+                        <div class="price-tag">Rp. 500.000/bln</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- INI COL DUA-TIGA -->
+                <div class="col-md-6">
+                  <div class="card-space">
+                    <img src="projek 1/assets/img/1.png" alt="" />
+                    <div class="card-overlay">
+                      <h5>Ruang Office 3 Orang</h5>
+
+                      <div
+                        class="d-flex justify-content-between align-items-end">
+                        <div class="d-flex flex-column gap-2">
+                          <button class="btn btn-light btn-sm">Details</button>
+                          <button class="btn btn-success btn-sm">
+                            Contact Us <i class="bi bi-whatsapp"></i>
+                          </button>
+                        </div>
+                        <!-- kanan -->
+                        <div class="price-tag">Rp. 500.000/bln</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- INI COL DUA-EMPAT -->
+                <div class="col-md-6">
+                  <div class="card-space">
+                    <img src="projek 1/assets/img/6.png" alt="" />
+                    <div class="card-overlay">
+                      <h5>Ruang Office 12 Orang</h5>
+
+                      <div
+                        class="d-flex justify-content-between align-items-end">
+                        <div class="d-flex flex-column gap-2">
+                          <button class="btn btn-light btn-sm">Details</button>
+                          <button class="btn btn-success btn-sm">
+                            Contact Us <i class="bi bi-whatsapp"></i>
+                          </button>
+                        </div>
+                        <!-- kanan -->
+                        <div class="price-tag">Rp. 500.000/bln</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- INI COL DUA AKHIR -->
+          </div>
+        </div>
+        <!-- INI SERVICE AKHIR -->
+      </div>
+      <div class="facility-section">
+        <div class="container">
+          <h2 class="section-title text-center mt-5">
+            Fasilitas SuitableSpace
+          </h2>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon">
+                  <i class="bi bi-wifi"></i>
+                </div>
+                <h6>Internet & Wifi</h6>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon">
+                  <i class="bi bi-cup-hot"></i>
+                </div>
+                <h6>Free Coffe & Tea</h6>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon">
+                  <i class="bi bi-camera-video"></i>
+                </div>
+                <h6>CCTV & Security</h6>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="feature-box">
+                <div class="feature-icon">
+                  <i class="bi bi-droplet"></i>
+                </div>
+                <h6>Daily Cleaning</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="benefit-section">
+        <div class="container">
+          <h2 class="section-title text-center mt-5">
+            Keuntungan Sewa Kantor di SuitableSpace
+          </h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="advantage-card">
+                <div class="benefit-card d-flex align-items-start gap-3">
+                  <div class="icon-wrapper text-white">
+                    <i class="bi bi-briefcase-fill"></i>
+                  </div>
+                  <div>
+                    <h3>Profesional</h3>
+                    <p>
+                      Menciptakan sebuah sistem yang menjadi unggulan yang
+                      dikelola secara Profesional dengan standar good
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="advantage-card">
+                <div class="benefit-card light">
+                  <h5><i class="bi bi-person-arms-up"></i> Lebih Hemat</h5>
+                  <p>
+                    Menciptakan sebuah sistem yang menjadi unggulan yang
+                    dikelola secara Profesional dengan standar good
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="advantage-card">
+                <div class="benefit-card light">
+                  <h5><i class="bi bi-geo-alt-fill"></i> Lokasi Strategis</h5>
+                  <p>
+                    Menciptakan sebuah sistem yang menjadi unggulan yang
+                    dikelola secara Profesional dengan standar good
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="advantage-card">
+                <div class="benefit-card light">
+                  <h5>
+                    <i class="bi bi-check-circle-fill"></i> Urus Legalistas
+                  </h5>
+                  <p>
+                    Menciptakan sebuah sistem yang menjadi unggulan yang
+                    dikelola secara Profesional dengan standar good
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-section">
+        <div class="container">
+          <h2 section="title">Gallery serviced SuitableSpace</h2>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="projek 1/assets/img/20.png"
+                      class="d-block w-100"
+                      alt="..." />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="projek 1/assets/img/20.png"
+                      class="d-block w-100"
+                      alt="..." />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="projek 1/assets/img/20.png"
+                      class="d-block w-100"
+                      alt="..." />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="projek 1/assets/img/20.png"
+                      class="d-block w-100"
+                      alt="..." />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="projek 1/assets/img/20.png"
+                      class="d-block w-100"
+                      alt="..." />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="projek 1/assets/img/20.png"
+                      class="d-block w-100"
+                      alt="..." />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="projek 1/assets/img/20.png"
+                      class="d-block w-100"
+                      alt="..." />
+                  </div>
+                  <div class="col">
+                    <img
+                      src="projek 1/assets/img/20.png"
+                      class="d-block w-100"
+                      alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev">
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next">
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <footer class="text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h6>layanan</h6>
+              <a href="">Virtual Offiece</a>
+              <a href="">Sewa Kantor</a>
+              <a href="">Ruang Meeting</a>
+              <a href="">Ruang Acara</a>
+              <a href="">Studio Podcast</a>
+              <a href="">Layanan Lainnya</a>
+            </div>
+            <div class="col-md-3">
+              <h6>Menu</h6>
+              <a href="">FAQ</a>
+              <a href="">Kebijakan pribadi</a>
+              <a href="">S & K</a>
+              <a href="">Karir</a>
+              <a href="">Promo</a>
+              <a href="">Check Agreement</a>
+            </div>
+            <div class="col-md-3">
+              <h6>Lainnya</h6>
+              <a href="">Beranda</a>
+              <a href="">Tentang Kami</a>
+              <a href="">Lokasi</a>
+              <a href="">Galeri</a>
+              <a href="">Blog</a>
+              <a href="">Kontak Kami</a>
+            </div>
+            <div class="col-md-3">
+              <h6>Kantor Kami</h6>
+              <a>Cinere Terrace Suite Blok JC 1, Jl</a>
+              <a
+                >Carita, Pangkalan Jati, Kec. Cinere, Kota Depok, Jawa Barat
+                16514</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
-    </div>
-
-    </div>
-    </div>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+  </body>
 </html>
